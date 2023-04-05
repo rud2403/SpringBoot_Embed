@@ -12,7 +12,7 @@ public class EmbedTomcatServletMain {
         // 톰캣 설정
         Tomcat tomcat = new Tomcat();
         Connector connector = new Connector();
-        connector.setPort(8081);
+        connector.setPort(8080);
         tomcat.setConnector(connector);
 
         // 서블릿 등록
